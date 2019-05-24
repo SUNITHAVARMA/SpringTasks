@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c16b2cd-6b2a-44f9-8ff7-7419e03913ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Springtask1Application.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/MainTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Springtask1Application.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/stackroute/MainTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/stackroute/domain/Actor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/stackroute/domain/Movie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/MainTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/MainTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Actor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/MainTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            <state relative-caret-position="296">
+              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/target/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="15">
+              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -89,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#111#112#0" expanded="true" />
                 <element signature="e#145#146#0" expanded="true" />
@@ -103,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+            <state relative-caret-position="325">
+              <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -127,12 +113,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/App.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Actor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/MainTask.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/beans.xml" />
         <option value="$PROJECT_DIR$/target/gitignore.md" />
         <option value="$PROJECT_DIR$/target/readme.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Actor.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/beans.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/MainTask.java" />
       </list>
     </option>
   </component>
@@ -294,22 +280,22 @@
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2528581" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2528581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.328877" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32841823" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" visible="true" weight="0.328877" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.328877" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32841823" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3297587" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -334,13 +320,27 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#111#112#0" expanded="true" />
             <element signature="e#145#146#0" expanded="true" />
             <element signature="e#186#187#0" expanded="true" />
             <element signature="e#220#221#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/gitignore.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -357,32 +357,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        <state relative-caret-position="325">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/MainTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        <state relative-caret-position="296">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/gitignore.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>

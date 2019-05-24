@@ -16,13 +16,21 @@ public class MainTask
     {
         ClassPathResource resource= new ClassPathResource("beans.xml");
         BeanFactory beanFactory = new XmlBeanFactory(resource);
-        Movie movie= (Movie) beanFactory.getBean("movie");
+
+       /* Movie movie= (Movie) beanFactory.getBean("movie");
         System.out.println("Actor1 information using bean factory:\n "+movie);
         Movie movie1= (Movie) beanFactory.getBean("movie1");
         System.out.println("Actor2 information using bean factory:\n "+movie1);
         ApplicationContext applicationContext=new ClassPathXmlApplicationContext("beans.xml");
         Movie mv=(Movie) applicationContext.getBean("movie");
-        System.out.println("Actor information using application context:\n "+mv);
+        System.out.println("Actor information using application context:\n "+mv);*/
+
+
+       //testing bean scope
+        ApplicationContext context1=new ClassPathXmlApplicationContext( "beans.xml");
+        Movie movie1=(Movie) context1.getBean("movie1");
+        Movie movie2=(Movie) context1.getBean("movie1");
+        System.out.println(movie1==movie2);
     }
 
 }

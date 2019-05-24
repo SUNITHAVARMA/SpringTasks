@@ -1,6 +1,6 @@
 package com.stackroute.domain;
 public class Actor{
-    private String name;git
+    private String name;
     private String gender;
     private int age;
     public Actor(){
