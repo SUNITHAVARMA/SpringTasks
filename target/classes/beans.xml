@@ -26,12 +26,23 @@
     <bean id="movie1" class="com.stackroute.domain.Movie">
         <constructor-arg name="actor" ref="actor1"/>
     </bean>-->
-    <bean id="actor1" class="com.stackroute.domain.Actor">
+
+<!--    <bean id="movie1" class="com.stackroute.domain.Movie">-->
+<!--    <constructor-arg name="actor" ref="actor1"/>-->
+<!--    </bean>-->
+    <!--
+    <bean name="movieA,movieB" class="com.stackroute.domain.Movie" scope="prototype">
+    <property name="actor" ref="actor1"/>
+    </bean>-->
+    <bean id="actor" class="com.stackroute.domain.Actor">
         <constructor-arg name="name" value="sunitha"/>
         <constructor-arg name="gender" value="female"/>
         <constructor-arg name="age" value="20"/>
     </bean>
-    <bean id="movie1" class="com.stackroute.domain.Movie"  scope="prototype">
-    <constructor-arg name="actor" ref="actor1"/>
+
+    <bean id="movie1" autowire="byName" class="com.stackroute.domain.Movie">
     </bean>
-</beans>
+
+    
+
+    </beans>

@@ -25,14 +25,20 @@ public class MainTask {
 
 
         //testing bean scope
-        ApplicationContext application=new ClassPathXmlApplicationContext("beans.xml");
+        /*ApplicationContext application=new ClassPathXmlApplicationContext("beans.xml");
         Movie movie2=(Movie) application.getBean("movie1");
         Movie movie4=(Movie) application.getBean("movie1");
 
         System.out.println(movie2==movie4);
 
         Movie movie = (Movie) application.getBean("movieA");
-        System.out.println("changing the id of beans:"+ movie);
+        System.out.println("changing the id of beans:"+ movie);*/
+
+        ApplicationContext context=new ClassPathXmlApplicationContext("beans.xml");
+        Movie movie=(Movie) context.getBean("movie1");
+        System.out.println("changing the id of beans" +movie);
+
+
 
 
     }
