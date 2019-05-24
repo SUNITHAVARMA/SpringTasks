@@ -9,12 +9,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.io.ClassPathResource;
 
 
-public class MainTask
-{
+public class MainTask {
     @Deprecated
-    public static void main( String[] args )
-    {
-        ClassPathResource resource= new ClassPathResource("beans.xml");
+    public static void main(String[] args) {
+        ClassPathResource resource = new ClassPathResource("beans.xml");
         BeanFactory beanFactory = new XmlBeanFactory(resource);
 
        /* Movie movie= (Movie) beanFactory.getBean("movie");
@@ -26,11 +24,16 @@ public class MainTask
         System.out.println("Actor information using application context:\n "+mv);*/
 
 
-       //testing bean scope
-        ApplicationContext context1=new ClassPathXmlApplicationContext( "beans.xml");
-        Movie movie1=(Movie) context1.getBean("movie1");
-        Movie movie2=(Movie) context1.getBean("movie1");
-        System.out.println(movie1==movie2);
-    }
+        //testing bean scope
+        ApplicationContext application=new ClassPathXmlApplicationContext("beans.xml");
+        Movie movie2=(Movie) application.getBean("movie1");
+        Movie movie4=(Movie) application.getBean("movie1");
 
+        System.out.println(movie2==movie4);
+
+        Movie movie = (Movie) application.getBean("movieA");
+        System.out.println("changing the id of beans:"+ movie);
+
+
+    }
 }
