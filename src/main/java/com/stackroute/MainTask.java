@@ -1,5 +1,6 @@
 package com.stackroute;
 
+import com.stackroute.demo.BeanLifecycleDemoBean;
 import com.stackroute.domain.Actor;
 import com.stackroute.domain.Movie;
 import org.springframework.beans.factory.BeanFactory;
@@ -35,9 +36,10 @@ public class MainTask {
         System.out.println("changing the id of beans:"+ movie);*/
 
         ApplicationContext context=new ClassPathXmlApplicationContext("beans.xml");
-        Movie movie=(Movie) context.getBean("movie1");
+        /*BeanLifecycleDemoBean beanLifecycleDemoBean=(BeanLifecycleDemoBean) context.getBean("beanLifeCycleDemoBean");*/
+       /* Movie movie=(Movie) context.getBean("movie1");
         System.out.println("changing the id of beans" +movie);
-
+*/
 
 
 

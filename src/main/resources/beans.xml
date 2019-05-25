@@ -43,6 +43,16 @@
     <bean id="movie1" autowire="byName" class="com.stackroute.domain.Movie">
     </bean>
 
+   <bean id="applicationContextAwareDemo" class="com.stackroute.awareinterface.ApplicationContextAwareDemo">
 
+   </bean>
+    <bean id="beanFactoryAwareDemo" class="com.stackroute.awareinterface.BeanFactoryAwareDemo">
+
+    </bean>
+    <bean id="beanNameAwareDemo" class="com.stackroute.awareinterface.BeanNameAwareDemo">
+
+    </bean>
+    <bean id="resourceLoaderAwareDemo" class="com.stackroute.awareinterface.ResourcesLoaderAwareDemo"></bean>
+    <bean id="beanLifecycleDemoBean" init-method="customInit"  destroy-method="customDestroy" class="com.stackroute.demo.BeanLifecycleDemoBean"></bean>
 
     </beans>
