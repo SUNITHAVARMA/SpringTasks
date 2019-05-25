@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c16b2cd-6b2a-44f9-8ff7-7419e03913ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/demo/BeanPostProcessorDemoBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/MainTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/MainTask.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="56" column="125" selection-start-line="56" selection-start-column="125" selection-end-line="56" selection-end-column="125" />
+            <state relative-caret-position="379">
+              <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -94,7 +92,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="bean-lifecycle" />
+        <entry key="$PROJECT_DIR$" value="aware-interface1" />
       </map>
     </option>
   </component>
@@ -280,11 +278,26 @@
       <option name="project" value="LOCAL" />
       <updated>1558686495000</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;added spring task6&quot;">
+      <created>1558753513384</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558753513384</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&quot;added spring task4&quot;">
+      <created>1558753565218</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558753565218</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2485323" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -344,7 +357,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;added spring task2&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;added spring task2&quot;" />
+    <MESSAGE value="&quot;added spring task6&quot;" />
+    <MESSAGE value="&quot;added spring task4&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;added spring task4&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie" />
@@ -406,8 +421,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="56" column="125" selection-start-line="56" selection-start-column="125" selection-end-line="56" selection-end-column="125" />
+        <state relative-caret-position="379">
+          <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
         </state>
       </provider>
     </entry>

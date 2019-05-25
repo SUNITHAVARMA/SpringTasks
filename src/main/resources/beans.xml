@@ -53,6 +53,6 @@
 
     </bean>
     <bean id="resourceLoaderAwareDemo" class="com.stackroute.awareinterface.ResourcesLoaderAwareDemo"></bean>
-    <bean id="beanLifecycleDemoBean" init-method="customInit"  destroy-method="customDestroy" class="com.stackroute.demo.BeanLifecycleDemoBean"></bean>
-    <bean id="beanPostProcessor" init-method="createBeanPostProcessor" class="com.stackroute.demo.BeanPostProcessorDemoBean"></bean>
+   <!-- <bean id="beanLifecycleDemoBean" init-method="customInit"  destroy-method="customDestroy" class="com.stackroute.demo.BeanLifecycleDemoBean"></bean>
+    <bean id="beanPostProcessor" init-method="createBeanPostProcessor" class="com.stackroute.demo.BeanPostProcessorDemoBean"></bean>-->
     </beans>
